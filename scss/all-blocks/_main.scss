@@ -1,0 +1,136 @@
+$main__text_p_font_size: 24px;
+$main__text_p_font_weight: 700;
+$main__text_2_font_size: 15px;
+$main__text_3_font_size: 13px;
+$main__text_p_font_family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+$main-box-div-width: 255px;
+$main-box-div-height: 330px;
+$main__text_p__margin__top: 30px;
+$main__text_p__2__margin__top: 100px;
+$main__div__box__margin__top: 20px;
+$main__box__gap: 50px;
+$main__img__width: 256px;
+$main__img__height: 180px;
+$main__box__2__margin__left: 15px;
+$main__text__3__margin__top: 10px;
+$main__text__3__font_weight: 500;
+$main__text__3__opacity: 60%;
+$main__text__4__margin__top: -18px;
+$main__text__4__margin__left: 115px;
+$main__zvezda__margin__top: 10px;
+$main__text__5__margin__top: -23px;
+$main__text__5__margin__left: 155px;
+$main__chiziq__width: 225px;
+$main__chiziq__height: 1px;
+$main__chiziq__margin__top: 15px;
+$main__box__3__margin__left: 170px;
+$main__box__3__margin__top: -20px;
+$main__div__chiziq__margin__left: 20px;
+$main__div__chiziq__margin__left: 500px;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main__contenir{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main__text_p{
+    font-size: $main__text_p_font_size;
+    font-weight: $main__text_p_font_weight;
+    font-family: $main__text_p_font_family;
+    margin-top: $main__text_p__margin__top;
+}
+
+.main__text_p__2{
+    font-size: $main__text_p_font_size;
+    font-weight: $main__text_p_font_weight;
+    font-family: $main__text_p_font_family;
+    margin-top: $main__text_p__2__margin__top;
+}
+
+.main__box{
+    display: flex;
+    align-items: center;
+    gap: $main__box__gap;
+}
+
+.main__div__box{
+    width: $main-box-div-width;
+    height: $main-box-div-height;
+    margin-top: $main__div__box__margin__top;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main__img{
+    width: $main__img__width;
+    height: $main__img__height;
+}
+
+
+
+.main__box__2{
+    margin-left: $main__box__2__margin__left;
+    font-family: $main__text_p_font_family;
+    font-weight: $main__text_p_font_weight;
+}
+
+.main__text__2{
+    font-size: $main__text_2_font_size;
+}
+
+.main__text__3{
+    margin-top: $main__text__3__margin__top;
+    font-weight: $main__text__3__font_weight;
+    opacity: $main__text__3__opacity;
+    font-size: $main__text_3_font_size;
+}
+
+.main__text__4{
+    margin-top: $main__text__4__margin__top;
+    margin-left: $main__text__4__margin__left;
+    font-weight: $main__text__3__font_weight;
+    opacity: $main__text__3__opacity;
+    font-size: $main__text_3_font_size;
+}
+
+.main__zvezda{
+    margin-top: $main__zvezda__margin__top;
+}
+
+.main__text__5{
+    margin-top: $main__text__5__margin__top;
+    margin-left: $main__text__5__margin__left;
+    font-weight:$main__text__3__font_weight;
+    opacity: $main__text__3__opacity;
+    font-size: $main__text_3_font_size;
+}
+
+.main__chiziq{
+    width: $main__chiziq__width;
+    height: $main__chiziq__height;
+    background-color: #E5E5E5;
+    margin-top: $main__chiziq__margin__top;
+}
+
+.main__text__6{
+    margin-top: $main__box__2__margin__left;
+}
+
+.main__box__3{
+    margin-left: $main__box__3__margin__left;
+    margin-top: $main__box__3__margin__top;
+}
+
+.main__div__chiziq{
+    margin-top: $main__div__chiziq__margin__top;
+    margin-left: $main__div__chiziq__margin__left;
+}
