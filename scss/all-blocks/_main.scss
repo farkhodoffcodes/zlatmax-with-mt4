@@ -25,7 +25,7 @@ $main__chiziq__height: 1px;
 $main__chiziq__margin__top: 15px;
 $main__box__3__margin__left: 170px;
 $main__box__3__margin__top: -20px;
-$main__div__chiziq__margin__left: 20px;
+$main__div__chiziq__margin__top: 20px;
 $main__div__chiziq__margin__left: 500px;
 
 *,
@@ -133,4 +133,20 @@ $main__div__chiziq__margin__left: 500px;
 .main__div__chiziq{
     margin-top: $main__div__chiziq__margin__top;
     margin-left: $main__div__chiziq__margin__left;
+}
+
+@media only screen and (max-width: 327px) {
+    .main__text_p{
+        margin-left: 60px;
+    }
+    .main__text_p__2{
+        margin-left: 80px;
+    }
+    .main__box{
+        display: block;
+        margin-left: 35px;
+    }
+    .main__div__chiziq{
+        margin-left: 80px;
+    }
 }

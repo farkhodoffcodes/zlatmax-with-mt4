@@ -113,4 +113,20 @@
 .main__div__chiziq {
   margin-top: 20px;
   margin-left: 500px;
+}
+
+@media only screen and (max-width: 327px) {
+  .main__text_p {
+    margin-left: 60px;
+  }
+  .main__text_p__2 {
+    margin-left: 80px;
+  }
+  .main__box {
+    display: block;
+    margin-left: 35px;
+  }
+  .main__div__chiziq {
+    margin-left: 80px;
+  }
 }/*# sourceMappingURL=main.css.map */
